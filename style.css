@@ -1,0 +1,146 @@
+body {
+  background: black !important;
+}
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0b0f1a;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #05080f;
+  border-bottom: 1px solid #1f2a44;
+}
+
+header img {
+  height: 50px;
+}
+
+/* ===== NAVIGATION ===== */
+nav a {
+  margin-left: 20px;
+  color: #4da6ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #cfcfcf;
+  margin-bottom: 25px;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #4da6ff;
+  color: #000000;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+/* ===== COMMON SECTION ===== */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #05080f;
+  border-top: 1px solid #1f2a44;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+}
+
+body {
+  background-color: #0b0f1a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: #4da6ff;
+  text-decoration: none;
+}
+
+header {
+  padding: 15px;
+}
+
+.hero {
+  padding: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #4da6ff;
+  color: black;
+  border-radius: 5px;
+}
